@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang = "en">
+<head>
+<meta charset = "UTF-8">
+<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+<title>Alfredo's FATE documentation page</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<main id = "main-doc">
+<section class = "main-section" id = "Saber">
+<header>Saber</header>
+<p>Heroes known for using a type of sword in their legends or documentaries.</p>
+<p>Considered the strongest class</p>
+<li>Artoria
+</section>
+<section class = "main-section" id = "Archer">
+<header>Archer</header>
+<p>Heroes known for using a ranged weapon in their legends or documentaries.</p>
+<p>Has a lot of sword-wielders too for some reason.</p>
+<li>Gilgamesh
+</section>
+<section class = "main-section" id = "Lancer">
+<header>Lancer</header>
+<p>Heroes known for using spear, lances, or other polearms in their legends</p>
+<p>A really strong class</p>
+<li>Karna
+</section>
+<section class = "main-section" id = "Caster">
+<header>Caster</header>
+<p>Heroes known for using magic, staves, and rituals in their lore</p>
+<p><code>Considered</code> one of the weakest combat classes</p>
+<li>Tamamo no Mae
+</section>
+<section class = "main-section" id = "Rider">
+<header>Rider</header>
+<p>Heroes known for riding as part of their legends. </p>
+<p><code>Very strange</code> to have a class based off a <code>verb</code>, I know, but considering some servants in this class have divine steeds, it's <code>cool</code></p>
+<li>Iskandar
+</section>
+<section class = "main-section" id = "Assassin">
+<header>Assassin</header>
+<p>"Heroes" known for using stealth tactics to kill in their legends</p>
+<p>One of the <code>edgier</code> classes</p>
+<li>First/King Hassan
+</section>
+<section class = "main-section" id = "Berserker">
+<header>Berserker</header>
+<p>Heroes known for madness, brutality, and/or rage.</p>
+<p>Some servants in other classes have a berserker version, which points to parts of their lore and/or backstory</p>
+<li>Heracles
+</section>
+<nav id = "navbar" class = "nav">
+  <header class = "nav-header">FATE Classes</header>
+  <ul>
+  <li><a href = "#Saber" class = "nav-link">Saber</a></li>
+  <li><a href = "#Archer" class = "nav-link">Archer</a></li>
+  <li><a href = "#Lancer" class = "nav-link">Lancer</a></li>
+  <li><a href = "#Caster" class = "nav-link">Caster</a></li>
+  <li><a class = "nav-link" href = "#Rider">Rider</a></li>
+  <li><a href = "#Assassin" class = "nav-link">Assassin</a></li>
+  <li><a href = "#Berserker" class = "nav-link">Berserker</a></li>
+  </ul>
+</nav>
+
+@media (min-width: 30em) and (orientation: landscape) {
+  /* … */
+}
+nav {position:fixed; height: 100%; top: 0; left: 0; overflow: hidden}
+.main-section {margin-left: 25%; min-width: 80%; margin-bottom: 50px; margin-right: auto}
+header {font-size: 30px; font-family: Georgia}
+.nav {width: 20%; min-width: 20%; border-right: 3px solid grey; display: block}
+main {background-color: #f4f4f2}
+.nav-link {font-size: 20px; paddi}
+a {color: black; text-decoration: none}
+ul {list-style-type: none}
+.nav-header {font-size: 30px; text-align: center; padding: 15px; border-bottom: 2 px solid black}
+p {font-family: calibri}
