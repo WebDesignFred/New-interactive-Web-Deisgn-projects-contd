@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang = "en">
+<head>
+<meta charset = "UTF-8">
+<meta name = "viewport"; content = "width=device-width, initial-scale=1.0">
+<link rel = "stylesheet" href = "styles.css">
+<title>Alfredo's product landing page</title>
+</head>
+<body>
+<header id = "header"><img src = "https://i.pinimg.com/originals/a8/b0/4b/a8b04b20fff2fbbcb5e6b54520812976.jpg" alt = "medieval sword" id = "header-img">Alfredo's Medieval Armory
+<nav id = "nav-bar">
+  <ul>
+    <li><a class = "nav-link" href = "#email">Email</li>
+    <li><a class = "nav-link" href = "#video">Video</li>
+    <li><a class = "nav-link" href = "#product">Product</li>
+  </ul>
+</nav>
+</header>
+<form id = "form" action="https://www.freecodecamp.org/email-submit" method="POST">
+<label><b>BATTLE READY STEEL</b><input type = "email" placeholder = "Enter your email address" id = "email" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required name = "email"></label>
+<input type = "submit" id = "submit">
+</form>
+<fieldset>
+<h2>Premium Materials</h2>
+<p>Our armaments are made from the finest quality steel</p>
+<h2>Premium Service</h2>
+<p>100% satisfaction guaranteed or your money back</p>
+<h2>Premium Lifestyle</h2>
+<p>Enables you to play Buhurt among other contact sports with armor</p>
+</fieldset>
+<iframe id = "video" width="1169" height="658" src="https://www.youtube.com/embed/IkDDBL7jNew" title="MMA with Medieval Armor and Blunt Weapons" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class = "product">
+<div class = "swords">
+<h1 id = "product">Swords</h1>
+<p>European Style</h1>
+<p>$200-$500<p>
+<img src = "https://img5.goodfon.ru/original/1600x900/6/c6/witcher-sword-the-witcher-3-wild-hunt-mech-geralta.jpg" class = "product-image">
+</div>
+<div class = "shields">
+<h1>Shields</h1>
+<p>European Style</h1>
+<p>$150-$400<p>
+<img src = "https://i.pinimg.com/736x/a8/d8/91/a8d891bff29f6547bf8502de9b0121d9--medieval-life-medieval-shields.jpg" class = "product-image">
+</div>
+<div class = "lance">
+<h1>Lances</h1>
+<p>European Style</h1>
+<p>$300-$700<p>
+<img src = "https://cdna.artstation.com/p/assets/images/images/015/855/656/medium/dmitrii-plotnikov-joustinglance-skin-b.jpg?1549927802" class = "product-image">
+</div>
+</div>
+</body>
+</html>
+
+#nav-bar {position: fixed;
+    top: 0px;
+    width: 100%;
+  font-family: sans-serif; left: 60%;
+}​
+#header {position: absolute; font-size: }
+#header-img {width: 30px; height: 30px; padding-right: 10px}
+@media (max-width: 700px) {#video {max-width: 320px; max-height: 180px} #form {margin-top: 100px} ul > li {font-size: 15px}}
+#video {display: flex; justify-content: center; align-items: center; max-width: 640px; max-height: 360px; margin: 30px auto; float: center}
+a {text-decoration: none; color: black;  }
+ul {list-style-type: none; padding: 20px 1%;
+width: 40%}
+ul > li {display: inline; margin-right: 30px; font-size: 20px}
+form {margin: 50px auto; text-align: center}
+input {display: block; margin: 15px auto}
+.product-image {max-width: 150px; max-height: 150px}
+.product {display: flex; justify-content: center; align-items: center; gap: 100px}
+fieldset {margin: 0 auto; text-align: center; border: none}
