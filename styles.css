@@ -1,0 +1,67 @@
+#nav-bar {
+          position: fixed;
+          top: 0px;
+          width: 100%;
+          font-family: sans-serif; left: 60%;
+          }​
+#header {
+          position: absolute; 
+          }
+#header-img {
+          width: 30px; 
+          height: 30px; 
+          padding-right: 10px
+          }
+@media (max-width: 700px) {
+        #video {
+          max-width: 320px; 
+          max-height: 180px} 
+        #form {
+          margin-top: 100px} 
+        ul > li {
+          font-size: 15px}
+          }
+#video {
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          max-width: 640px; 
+          max-height: 360px; 
+          margin: 30px auto; 
+          float: center
+        }
+a {
+          text-decoration: none; 
+          color: black;
+          }
+ul {
+          list-style-type: none; 
+          padding: 20px 1%;
+          width: 40%
+          }
+ul > li {
+          display: inline; 
+          margin-right: 30px; 
+          font-size: 20px
+        }
+form {
+      margin: 50px auto; 
+      text-align: center
+      }
+input {
+        display: block; 
+        margin: 15px auto
+      }
+.product-image {
+      max-width: 150px; max-height: 150px
+}
+.product {
+           display: flex; 
+           justify-content: center; 
+           align-items: center; 
+           gap: 100px
+}
+fieldset {
+           margin: 0 auto; 
+           text-align: center; 
+           border: none}
